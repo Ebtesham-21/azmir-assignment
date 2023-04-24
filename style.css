@@ -51,7 +51,7 @@ body{
 
 }
 
-.container .flag-img {
+.container-custom .flag-img {
     display: block;
     width: 45%;
     min-width: 7.5em;
@@ -59,7 +59,7 @@ body{
 
 }
 
-.container h2 {
+.container-custom h2 {
     font-weight: 600;
     color:rgba(8, 21, 65, 0.25);
     text-align: center;
@@ -73,18 +73,19 @@ body{
     letter-spacing: 0.3px;
 }
 
-.container h4 {
+.container-custom h4 {
     display: inline;
     font-weight: 500;
-    color: beige;
+    color: rgb(0, 0, 0);
 }
 
-.container span {
-    color:beige;
+.container-custom span {
+    color:rgb(0, 0, 0);
 }
 
-.container h3{
+.container-custom h3{
     text-align: center;
+    color: red;
 
 }
 
